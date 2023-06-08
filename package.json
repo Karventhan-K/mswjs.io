@@ -49,10 +49,10 @@
   ],
   "license": "MIT",
   "scripts": {
-    "build": "yarn clean && gatsby build",
+    "build": "node init && yarn clean && gatsby build",
     "develop": "gatsby develop",
     "format": "prettier --write .",
-    "start": "yarn clean && yarn develop",
+    "start": "node init && yarn clean && yarn develop",
     "serve": "gatsby serve",
     "clean": "gatsby clean"
   },
