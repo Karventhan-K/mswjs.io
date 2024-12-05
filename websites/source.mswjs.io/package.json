@@ -7,9 +7,9 @@
     "url": "https://github.com/mswjs/mswjs.io/tree/main/websites/source.mswjs.io/"
   },
   "scripts": {
-    "dev": "astro dev",
-    "start": "astro dev",
-    "build": "astro check && astro build",
+    "dev": "node init && astro dev",
+    "start": "node init && astro dev",
+    "build": "node init && astro check && astro build",
     "preview": "astro preview",
     "astro": "astro"
   },
